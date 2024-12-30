@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Depth SR</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="wrapper">
+<header>
+<h7>Chongyi Li</h7><br><br>
+<div>
+<img src="sub_img/IMG_7689.jpg" border="0" width="80%"><br></div><br>
+
+  
+<p>
+<small>lichongyi25 @ gmail.com </small><br><br>
+<a href="https://github.com/Li-Chongyi" target="_blank">[GitHub]</a>  
+<a href="http://dblp.uni-trier.de/pers/hd/l/Li:Chongyi" target="_blank">[DBLP]</a>  <br>
+<a href="https://scholar.google.com/citations?user=1_I0P-AAAAAJ&hl=zh-CN" target="_blank">[Google Scholar]</a> <br>
+</p> <br>
+<p class="view"><a href="https://li-chongyi.github.io/">Homepage</a></p>
+<p class="view"><a href="sub_publication.html">Publications</a></p>
+<p class="view"><a href="sub_projects.html">Projects</a></p>
+</header>
+
+
+      <section>
+
+<h2>
+<a id="project_title" class="anchor" href="#project_title" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hierarchical Features Driven Residual Learning for Depth Map Super-Resolution</h2>
+
+
+
+
+<h4>
+<a id="Introduction-page" class="anchor" href="#Introduction-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction:</h4>
+<div style="text-align: justify; display: block; margin-right: auto;">
+<p>Rapid development of affordable and portable consumer depth cameras facilitates the use of depth information in many computer vision tasks such as intelligent vehicles and 3D reconstruction. However, depth map captured by low-cost depth sensors (e.g., Kinect) usually suffers from low spatial resolution, which limits its potential applications. In this paper, we propose a novel deep network for depth map super-resolution (SR), called DepthSR-Net. The proposed DepthSR-Net automatically infers a high resolution (HR) depth map from its low resolution (LR) version by hierarchical features driven residual learning. Specifically, DepthSR-Net is built on a residual U-Net deep network architecture. Given LR depth map, we first obtain the desired HR by bicubic interpolation upsampling, and then construct an input pyramid to achieve multiple level receptive fields. Next, we extract hierarchical features from the input pyramid, intensity image, and encoder-decoder structure of U-Net. Finally, we learn the residual between the interpolated depth map and the corresponding HR one using the rich hierarchical features. The final HR depth map is achieved by adding the learned residual to the interpolated depth map. We conduct an ablation study to demonstrate the effectiveness of each component in the proposed network. Extensive experiments demonstrate that the proposed method outperforms the state-of-the-art methods. Additionally, the potential usage of the proposed network in other low-level vision problems is discussed.
+</p>
+
+<div style="text-align: center; display: block; margin-right: auto;">
+<img src="sub_img/SR.png" border="0" width="600"><br></div><br>
+ 
+
+<hr />
+<h4>Paper:</h4>
+    
+<p>
+  Chunle Guo, Chongyi Li, Jichang Guo, Runmin Cong, Huazhu Fu, Ping Han 
+  <strong>Hierarchical Features Driven Residual Learning for Depth Map Super-Resolution</strong>. 
+  <a href="https://github.com/Li-Chongyi/PAPERS/blob/master/SR.pdf"><font color="#ff0000">[PDF]</font></a>
+</p>
+
+ 
+<hr />
+<h4>Our results: <a href="https://pan.baidu.com/s/1C6MLF975REXGxPrRfH6pmA" target="_blank"><font color="#ff0000">[Baidu Cloud Link, PASSWORD: 08lb]</font></a>  <a href="https://drive.google.com/open?id=1VwgXgvVywAiqJllKAR6Cf_ExsFJdZ7ro" target="_blank"><font color="#ff0000">[Google Drive]</font></a> </h4>
+<h4>TensorFlow Codes: </h4>
+     <h4>2x_MODEL: <a href="https://pan.baidu.com/s/1PIWCe8j5uJKoOPqsLTWMNA" target="_blank"><font color="#ff0000">[Baidu Cloud Link, PASSWORD: 7dso]</font></a> <a href="https://drive.google.com/open?id=18y6jpGnjqYINzMFJeVHcg4SQiYM-lFBb" target="_blank"><font color="#ff0000">[Google Drive]</font></a></h4>
+     <h4>3x_MODEL: <a href="https://pan.baidu.com/s/14Aj9M-4b8uruB-2vey8m_g" target="_blank"><font color="#ff0000">[Baidu Cloud Link, PASSWORD: 1o9y]</font></a> <a href="https://drive.google.com/open?id=1cWdtKgA799NzExIR7fKo91ut63W3pBfV" target="_blank"><font color="#ff0000">[Google Drive]</font></a></h4>
+     <h4>4x_MODEL: <a href="https://pan.baidu.com/s/128QZW4-9OCZAnXg0YMpqgQ" target="_blank"><font color="#ff0000">[Baidu Cloud Link, PASSWORD: mm10]</font></a> <a href="https://drive.google.com/open?id=11p3N73k_oEie9-vcYeHN7B_mbDvR_Nxe" target="_blank"><font color="#ff0000">[Google Drive]</font></a></h4>
+     <h4>8x_MODEL: <a href="https://pan.baidu.com/s/1KV3SmOjCQuXRZ-acHVk1fQ" target="_blank"><font color="#ff0000">[Baidu Cloud Link, PASSWORD: m2uv]</font></a> <a href="https://drive.google.com/open?id=1x0Jh7Kzupm_8R6ZJi2ebBCm6gs8WAu5y" target="_blank"><font color="#ff0000">[Google Drive]</font></a></h4>
+     <h4>16x_MODEL: <a href="https://pan.baidu.com/s/10e8VlATqOovbRKQVGtmmUQ" target="_blank"><font color="#ff0000">[Baidu Cloud Link, PASSWORD: bsch]</font></a> <a href="https://drive.google.com/open?id=1qK7kWRNRihACU8L5uw-9u5GqYHxw_jN4" target="_blank"><font color="#ff0000">[Google Drive]</font></a></h4>
+     
+<h4>How to run the Codes: </h4>
+  
+     <h4>1. Put the testing images into DATA_TEST and follow the format of exmples;</h4> 
+  
+     <h4>2. Python main.py; and </h4>
+  
+     <h4>3. Find the results in the Sample (down.png is the bicubic input, rgb.png is the intensity of RGB image, sr.png is our result, and up.png is the corresponding GT.).</h4>
+  
+  <hr />
+        
+
+      </section>
+
+    </div>
+    <script src="../../javascripts/scale.fix.js"></script>
+  </body>
+</html>
