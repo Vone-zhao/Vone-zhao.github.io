@@ -116,7 +116,7 @@ img {
 header {
   width:180px;
   float:left;
-  position:relative;
+  position:static;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
